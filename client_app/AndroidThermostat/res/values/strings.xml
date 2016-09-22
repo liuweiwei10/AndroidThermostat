@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidThermostat</string>
+    <string name="btnSignin">Sign in</string>
+    <string name="btnRegister">Open an account</string>
+    <string name="tvPassword">Password</string>
+    <string name="tvPassword2">Confirm Password</string>
+    <string name="btnOK">OK</string>
+    <string name="tvAtHomeHeat">At home heat temperature:</string>
+    <string name="tvAtHomeCool">At home cool temperature:</string>
+    <string name="tvAwayHomeHeat">Away home heat temperature:</string>
+    <string name="tvAwayHomeCool">Away home cool temperature:</string>
+    <string name="tvAddress">Address:</string>
+    <string name="tvEmail">Email account</string>
+    <string name="btnAddHouse">Add house</string>
+    <string name="tvHouseName">House name:</string> 
+    <string name="btnAddThermostat">Add Thermostat</string> 
+    <string name="btnSave">Save</string>
+    <string name="tvThermostatName">Thermostat Name</string>
+    <string name="tvThermostatID">Thermostat ID</string>
+    <string name="tvHouseAddress">House Address:</string>
+    <string name="cbCurAddress">Use current location</string>
+    <string name="btnIncTemp">+</string>
+    <string name="btnDecTemp">-</string>
+    <string name="tvTarget">Target</string>
+    <string name="tvInsideTemp">Inside Temperature</string>
+    <string name="white">#FFFFFF</string>
+    
+    
+    
+</resources>

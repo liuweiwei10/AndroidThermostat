@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Thermostat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="internet">Internet&#038;Account</string>
+    <string name="heating">Heating&#038;Cooling</string>
+    <string name="location">Location</string>
+    <string name="temperature">Temperature</string>
+    <string name="language_info">Choose Language</string>
+    <string name="internet_info">Connect to internet for remote control, update, and local weather.\nPlease select  a network.</string>
+    <string name="account_info">Signing into an account allows you managing your thermostat from different ends.</string>
+    <string name="heating_info">Equipments Detected</string>
+    <string name="question1">What is the fuel source for your heating?</string>
+    <string name="question2">What type of heating do you have?</string>
+    <string name="location_info">Your location lets us set the local time and determine the weather forecast. </string>
+    <string name="address_info">Please enter your home address.</string>
+    <string name="thermo_name_info">Please name your thermostat.</string>
+    <string name="temperature_info">Set default temperature when you are away home.</string>
+    <string name="finish_info">Congratulations! You’ve set up you thermostat.</string>
+    <string name="signin_info_1">You’ve signed in with account </string>
+    <string name="signin_info_2">.Continue to finish setting up your thermostat.</string>
+    
+    <string name="password">Password</string>
+    <string name="emmail">Email account</string>
+    <string name="signin"> Sign in </string>
+    <string name="signup"> Sign up </string>
+    
+    <string name="inc_temp">+</string>
+    <string name="dec_temp">-</string>
+    <string name="target">Target</string>
+    <string name="inside_temp">Inside Temperature</string>
+    
+
+</resources>

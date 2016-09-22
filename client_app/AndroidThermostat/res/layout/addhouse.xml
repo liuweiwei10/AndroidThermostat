@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <TextView
+        android:id="@+id/tvHousename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/tvHouseName"
+        android:textSize="18sp" />
+    
+    
+    <EditText
+        android:id="@+id/etHouseName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tvHousename"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:singleLine="true" /> 
+          
+     <TextView
+        android:id="@+id/tvHouseAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etHouseName"
+        android:layout_marginTop="20dp"
+        android:text="@string/tvHouseAddress"
+        android:textSize="18sp" />
+     
+     <CheckBox
+        android:id="@+id/cbCurAddress"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="20dp"
+    	android:layout_toRightOf="@+id/tvHouseAddress"
+    	android:layout_below="@id/etHouseName"
+    	android:layout_alignParentRight="true"
+    	android:text="@string/cbCurAddress" />
+      
+     <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tvHouseAddress"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:singleLine="true" /> 
+          
+      
+    <Button
+        android:id="@+id/btnAddThermostat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAddress"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/btnAddThermostat"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvThermostats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAddThermostat"
+        android:layout_marginLeft="40dp"
+        android:textSize="18sp" />
+    
+    <Button
+        android:id="@+id/btnSaveHouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="@string/btnSave"
+        android:textSize="15sp" />
+
+</RelativeLayout>

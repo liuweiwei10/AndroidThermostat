@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#38E92F</color>
+    <color name="green_focused">#68CB62</color> 
+    <color name="light_green">#F2FFE5</color>
+    <color name="white">#FFFFFF</color> 
+    <color name="blue">#0080FF</color> 
+    <color name="black">#000000</color> 
+    <color name="light_gray">#F2F2F2</color>
+    <color name="deep_gray">#848484</color>
+    <color name="gray">#E6E6E6</color>
+    <color name="cooling_color">#00B0F0</color>
+    <color name="heating_color">#FFC000</color>
+    
+</resources>
